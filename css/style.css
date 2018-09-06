@@ -1,0 +1,484 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{ 
+  overflow-x:hidden;
+  
+}
+.container{
+	width:1140px;
+	margin:0 auto;
+}
+/*Header section css start here*/
+ header{
+	 width:100%;
+	 margin:0 auto;
+	 
+	 
+	
+ }
+ .header-top{
+	 width:100%;
+	 float:left;
+	 overflow:hidden;
+	 text-align:center;
+	 padding-top:0px;
+	 
+	
+	 
+	
+ }
+ .logo-area{
+	 width:40%;
+	 float:left;
+	 
+ }
+ .logo-area h2{
+	 color:#B5B32F;
+	 margin-top:50px;
+ }
+ .nav-bar-top{
+	 width:60%;
+	 float:left;
+	 
+	
+	 
+	 
+ }
+ .nav-bar-top span{
+	 color:#fff;
+	 
+ }
+.nav-bar-top ul{
+	list-style:none;
+	margin-top:50px;
+}
+.nav-bar-top ul li{
+	display:inline-block;
+}
+.nav-bar-top ul li a{ 
+  text-decoration:none;
+  margin:0 10px;
+  padding:0 5px;
+  color:#fff;
+  
+}
+.nav-bar-top ul li  span{
+	transform: rotate(90deg);
+}
+
+/*Header section css end here*/
+/*Baner section css start here*/
+.baner-area{
+	width:100%;
+	margin:0 auto;
+	background-image: url(../images/homepage.png);
+	background-position:center;
+    background-repeat:no-repeat;
+
+	
+}
+.baner-content{ 
+  width:100%;
+  overflow:hidden;
+  padding-top:250px;
+  padding-bottom:350px;
+  padding-right:50px;
+  padding-left:50px;
+
+}
+.baner-content h1{ 
+  background-color:#252016;
+  width:38%;
+  color:#fff;
+  margin-left:90px;
+  padding:10px 10px;
+  text-align:center;
+  font-size:40px;
+  
+}
+.baner-content p{ 
+   margin-left:90px;
+   font-size:13px;
+   line-height:20px;
+   margin-top:10px;
+   color: #fff;
+}
+.baner-content hr{
+	width:2%;
+	margin-left:90px;
+	margin-top:30px;
+}
+.baner-content input[type="button"]{
+	width:150px;
+	padding:8px 5px;
+	text-align:center;
+	background:transparent;
+	border:none;
+	border: 2px solid #fff;
+	color:#fff;
+	margin-top:20px;
+	margin-left:90px;
+	
+}
+
+/*Baner section css end here*/
+
+/*Welcome section css start here*/
+.welcome-area{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:100px;
+}
+.welcome-content{
+	width:98%;
+	margin: 0 auto;
+	overflow:hidden;
+	padding:50px;
+}
+.welcome-text{
+	width:45%;
+	float:left;
+	text-align:center;
+}
+.welcome-text h1{ 
+   text-align:justify;
+   color:#000;
+}
+.welcome-text hr{ 
+  width:10px;
+  margin:20px 0px;
+  height:2px;
+  background-color:#000;
+}
+.welcome-text p{ 
+  text-align:justify;
+}
+.right-arrow{
+	width:8%;
+	float:left;
+	text-align:center;
+	
+}
+.welcome-car{
+	width:20%;
+	float:left;
+	text-align:center;
+}
+.welcome-car img{
+	width:100%;
+	float:left;
+	margin-top:55px;
+	
+	
+}
+ .right-arrow{
+	 height:110px;
+	 width:110px;
+	 margin-top:50px;
+	 border-top: 0px solid #000;
+	 border-right: 0px solid #000;
+	 border-bottom: 40px solid #000;
+	 border-left: 40px solid #000;
+	 -moz-box-sizing:border-box;
+	 -webkit-box-sizing:border-box;
+	 box-sizing:border-box;
+	 -moz-transform:rotate(45deg);
+	 -webkit-transform:rotate(45deg);
+	 transform:rotate(45deg);
+	 
+	 
+ }
+/*Welcome  section css end here*/
+/*Title   section css start here*/
+.title-area{
+	background:#28282E;
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	padding-bottom:50px;
+	
+}
+.title-content{
+	width:58%;
+	position:relative;
+	margin:0px auto;
+	height:250px;
+	box-sizing:border-box;
+	padding:30px;
+	
+	
+}
+.title-content h1{
+	width:96%;
+	margin:20px 2%;
+	color:#fff;
+}
+.title-content hr{
+	width:2%;
+	margin:0px 2%;
+}
+.title-text{ 
+  padding:10px 0px;
+}
+.title-text p{
+	text-align:justify;
+	line-height:18px;
+	font-size:10px;
+	color:#fff;
+	
+}
+.title-content:after{
+	position:absolute;
+	width:50px;
+	height:50px;
+	border-top:0px solid #orange;
+	border-right:2px solid #ffff;
+	border-bottom:2px solid #fff;
+	border-left:0px solid orange;
+	bottom:100%;
+	left:45%;
+	margin-left:-25px;
+	content: '';
+	transform:rotate(45deg);
+	margin-bottom:-25px;
+	background-color:#fff;
+}
+ 
+ .title-text{ 
+  width:40%;
+  overflow:hidden;
+  float:left; 
+  margin:0px 2%;
+ }
+
+
+
+.title-car{
+  width:52%;
+  overflow:hidden;
+  float:left;
+  margin:0px 2%;
+  
+}
+.title-car img{
+	width:100%;
+	
+}
+.title-text input[type="button"]{
+	margin-top:20px; 
+	padding:8px 10px;
+	background-color:transparent;
+	border:2px solid #fff;
+	color:#fff;
+	font-size:8px;
+	text-transform:uppercase;
+}
+/*Title   section css end here*/
+/*footer   section css start here*/
+footer{
+	background-color:#F13E2C;
+	overflow:hidden;
+	width:100%;
+}
+.footer-text{
+	width:100%;
+	margin:0 auto;
+	float:left;
+	text-align:center;
+	padding:30px 10px;
+	overflow:hidden;
+	color:#fff;
+}
+
+/*footer  section css end here*/
+
+/*Contact Us Header  CSS Here*/
+
+.contact-us-header{ 
+     width:100%;
+	 margin:0 auto;
+	 overflow:hidden;
+	
+}
+.contact-us-header h2{ 
+    color: #000;
+}
+.contact-us-header .header-top{ 
+     padding-bottom:20px;
+}
+.contact-us-header ul li a{ 
+   color:#000;
+}
+.contact-us-header span{
+	color:#000;
+}
+
+/*Contact us area css start here*/
+.contact-us-area{
+	width:100%;
+	margin:0 auto;
+	overflow:hidden;
+	background-color:#F04838;
+	padding:50px;
+}
+.contact-us-heading h1{
+	color:#fff;
+	font-size:35px;
+}
+.contact-us-content{
+	width:100%;
+}
+.contact-us-text{
+	width:80%;
+	float:left;
+}
+.contact-us-text p{
+	color:#fff;
+	line-height:20px;
+	text-align:justify;
+}
+.contact-us-text img{ 
+   width:70%;
+  
+}
+.contact-us-box{
+	width:30%;
+	float:left;
+}
+
+.contact-us-box{
+	height:140px;
+	width:140px;
+	background:#fff;
+	transform:rotate(45deg);
+	box-shadow:-40px 40px #000;
+}
+
+.contact-us-form{
+	width:100%;
+	overflow:hidden;
+	padding:30px;
+}
+
+
+.contact-form-left{
+	width:40%;
+	float:left;
+}
+.contact-form-middle{
+	width:40%;
+	float:left;
+}
+.contact-form-right{
+	width:20%;
+	float:left;
+}
+.contact-us-form label{
+	color:#fff;
+	text-transform:uppercase;
+	line-height:40px;
+	
+	
+}
+.contact-us-form input[type="text"]{ 
+    width:380px;
+	height:30px;
+	padding:5px;
+	border:none;
+	background-color:#FF6153;
+	
+}
+
+
+.contact-us-form input[type="email"]{ 
+        width:380px;
+		height:30px;
+		padding:5px;
+		border:none;
+		background-color:#FF6153;
+		
+		
+}
+
+.contact-us-form input[type="submit"]{ 
+     width:50%; 
+	 margin:100px 50% 0 0px;
+	 padding: 5px 10px;
+	 font-size:30px;
+	 font-family:italic;
+	 background-color:transparent;
+	 border:none;
+	 color:#fff;
+ 
+
+}
+/*Contact us CSS End here*/
+/*About  us CSS Start here*/
+.about-us-area{
+	width:100%;
+	margin:0 auto;
+	height:auto;
+	overflow:hidden;
+	padding:30px 5px;
+}
+.about-us-area hr{
+	width:100%;
+	padding:3px 0px;;
+	border:nome;
+	background-color:#E4E4E4;
+}
+.about-us-text{
+	width:50%;
+	float:left;
+}
+.about-us-text h1{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.about-us-text p{
+	text-align:justify;
+}
+.about-us-image{
+	width:50%;
+	float:left;
+}
+.about-us-image img{
+	margin-top:60px;
+	width:200px;
+	height:100px;
+	
+}
+.about-us-text-para{
+	width:100%;
+	float:left;
+	margin:50px 0px;
+}
+.about-us-text-left{ 
+   width:50%;
+   float:left;
+}
+.about-us-text-right{ 
+   width:50%;
+   float:left;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
